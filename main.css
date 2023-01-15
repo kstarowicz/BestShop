@@ -4,6 +4,7 @@
     height: 70px;
     display: flex;
     flex-direction: row;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .logo{
@@ -20,6 +21,7 @@
 .menu_list{
     display: flex;
     flex-direction: row;
+    text-decoration: none;
     list-style: none;
     margin-left: 668px;
     margin-top: 28px;
@@ -69,3 +71,34 @@ h1{
     color: #FFF;
 }
 
+.popularity_section{
+    height: 531px;
+    width: 1626px;
+}
+.popularity_section_text{
+    margin-left: 456px;
+    margin-top: -50px;
+    width: 714px;
+    height: 42px;
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+.popularity_three_columns{
+
+}
+
+.popularity_first_column{
+
+}
+.first_picture_popularity_section{
+
+}
+.number_first_column{
+
+}
+.text_first_column{
+
+}
