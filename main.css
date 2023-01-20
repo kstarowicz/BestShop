@@ -358,3 +358,80 @@ h1{
     padding-left: 35px;
     padding-right: 34px;
 }
+
+.pricing_section{
+    width: 1266px;
+    margin-left: 180px;
+
+}
+.pricing_three_columns{
+    display: flex;
+    flex-direction: row;
+}
+.header_pricing_section{
+    width: 114px;
+    height: 42px;
+    padding-left: 516px;
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0;
+    color: #000000;
+    background: #FFFFFF 0
+    no-repeat padding-box;
+}
+.first_pricing_column{
+    width: 372px;
+    height: 461px;
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+    opacity: 1;
+    margin-top: 71px;
+}
+.header_first_pricing_column{
+    height: 24px;
+    width: 51px;
+    padding-left: 161px;
+    padding-top: 34px;
+    text-align: left;
+    font: normal normal bold 20px/1px Raleway;
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+}
+.first_paragraph_pricing_column{
+    height: 64px;
+    width: 59px;
+    margin-left: 157px;
+    margin-top: 14px;
+    text-align: left;
+    font: normal normal 300 46px/2px Open Sans;
+    letter-spacing: 0;
+    color: #FB3B64;
+    opacity: 1;
+}
+.first_list_pricing_column{
+
+}
+
+.second_pricing_column{
+    margin-left: 59px;
+    width: 405px;
+    height: 500px;
+    margin-top: 50px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 27px #07ACE629;
+    border: 1px solid #07ACE6;
+    border-radius: 18px;
+    opacity: 1;
+
+}
+.third_pricing_column{
+    width: 372px;
+    height: 461px;
+    margin-left: 58px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border: 1px solid #55DFB4;
+    border-radius: 18px;
+    opacity: 1;
+    margin-top: 71px;
+}
