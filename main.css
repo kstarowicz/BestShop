@@ -338,7 +338,7 @@ h1{
     width: 440px;
     height: 370px;
     margin-left: 61px;
-    background: #55DFB4 0% 0% no-repeat padding-box;
+    background: #55DFB4 0 0 no-repeat padding-box;
     border: 1px solid #E8E9ED;
     border-radius: 5px;
 }
@@ -371,7 +371,7 @@ h1{
 .header_pricing_section{
     width: 114px;
     height: 42px;
-    padding-left: 516px;
+    padding-left: 576px;
     text-align: center;
     font: normal normal normal 36px/42px Raleway;
     letter-spacing: 0;
@@ -405,14 +405,13 @@ h1{
     margin-top: 14px;
     text-align: left;
     font: normal normal 300 46px/2px Open Sans;
-    letter-spacing: 0;
+    letter-spacing: 0px;
     color: #FB3B64;
     opacity: 1;
 }
 .first_list_pricing_column{
-
+    list-style: none;
 }
-
 .second_pricing_column{
     margin-left: 59px;
     width: 405px;
@@ -423,7 +422,40 @@ h1{
     border: 1px solid #07ACE6;
     border-radius: 18px;
     opacity: 1;
+}
+.header_second_pricing_column {
+    width: 123px;
+    height: 25px;
+    padding-left: 141px;
+    padding-top: 34px;
+    text-align: left;
+    font: normal normal bold 21px/1px Raleway;
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+}
+.second_paragraph_pricing_column{
+    height: 70px;
+    width: 93px;
+    margin-left: 156px;
+    margin-top: 14px;
+    text-align: left;
+    font: normal normal 300 46px/2px Open Sans;
+    letter-spacing: 0;
+    color: #07ACE6;
+    opacity: 1;
+}
+.limited_second_paragraph_column{
 
+    margin-left: 166px;
+    margin-top: 5px;
+    font: normal normal bold 12px/1px Raleway;
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+}
+.second_list_pricing_column{
+    list-style: none;
 }
 .third_pricing_column{
     width: 372px;
@@ -434,4 +466,66 @@ h1{
     border-radius: 18px;
     opacity: 1;
     margin-top: 71px;
+}
+.third_list_pricing_column{
+    list-style: none;
+}
+
+.first_li{
+
+}
+
+.checkmark_first{
+    margin-right: 10px;
+}
+.second_li{
+
+}
+.third_li{
+
+}
+.fourth_li{
+
+}
+.fifth_li{
+
+}
+
+.first_button_pricing_column{
+    width: 150px;
+    height: 50px;
+    background: #EB476E 0 0 no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    color: #FFFFFF;
+    font: normal normal bold 13px/41px Open Sans;
+    margin-top: 55px;
+    margin-left: 111px;
+}
+
+.second_button_pricing_column{
+    width: 165px;
+    height: 50px;
+    background: #07ACE6 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 23px;
+    opacity: 1;
+    color: #FFFFFF;
+    font: normal normal bold 13px/41px Open Sans;
+    letter-spacing: 0;
+    margin-left: 120px;
+    margin-top: 53px;
+}
+
+.third_button_pricing_column{
+    width: 150px;
+    height: 50px;
+    background: #55DFB4 0 0 no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    font: normal normal bold 13px/41px Open Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin-left: 111px;
+    margin-top: 55px;
 }
