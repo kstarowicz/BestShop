@@ -390,8 +390,8 @@ h1{
 .header_first_pricing_column{
     height: 24px;
     width: 51px;
-    padding-left: 161px;
-    padding-top: 34px;
+   margin-left: 161px;
+    margin-top: 34px;
     text-align: left;
     font: normal normal bold 20px/1px Raleway;
     letter-spacing: 0;
@@ -405,7 +405,7 @@ h1{
     margin-top: 14px;
     text-align: left;
     font: normal normal 300 46px/2px Open Sans;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: #FB3B64;
     opacity: 1;
 }
@@ -426,8 +426,8 @@ h1{
 .header_second_pricing_column {
     width: 123px;
     height: 25px;
-    padding-left: 141px;
-    padding-top: 34px;
+    margin-left: 141px;
+    margin-top: 34px;
     text-align: left;
     font: normal normal bold 21px/1px Raleway;
     letter-spacing: 0;
@@ -435,8 +435,9 @@ h1{
     opacity: 1;
 }
 .second_paragraph_pricing_column{
-    height: 70px;
+
     width: 93px;
+    /*height: 70px;*/
     margin-left: 156px;
     margin-top: 14px;
     text-align: left;
@@ -446,7 +447,8 @@ h1{
     opacity: 1;
 }
 .limited_second_paragraph_column{
-
+    width: 73px;
+    height: 14px;
     margin-left: 166px;
     margin-top: 5px;
     font: normal normal bold 12px/1px Raleway;
@@ -456,7 +458,9 @@ h1{
 }
 .second_list_pricing_column{
     list-style: none;
+    margin-top: 61px;
 }
+
 .third_pricing_column{
     width: 372px;
     height: 461px;
@@ -466,6 +470,42 @@ h1{
     border-radius: 18px;
     opacity: 1;
     margin-top: 71px;
+}
+
+.header_third_pricing_column{
+    width: 86px;
+    height: 24px;
+    margin-left: 143px;
+    margin-top: 34px;
+    text-align: left;
+    font: normal normal bold 20px/1px Raleway;
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+}
+
+.third_paragraph_pricing_column{
+    width: 85px;
+    /*height: 64px;*/
+    margin-left: 144px;
+    margin-top: 14px;
+    text-align: left;
+    font: normal normal 300 46px/2px Open Sans;
+    letter-spacing: 0;
+    color: #55DFB4;
+    opacity: 1;
+}
+
+.limited_third_paragraph_column{
+    width: 73px;
+    height: 14px;
+    margin-left: 150px;
+    margin-top: 5px;
+    text-align: left;
+    font: normal normal bold 12px/1px Raleway;
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
 }
 .third_list_pricing_column{
     list-style: none;
