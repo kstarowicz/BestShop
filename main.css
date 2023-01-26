@@ -486,7 +486,7 @@ h1{
 
 .third_paragraph_pricing_column{
     width: 85px;
-    /*height: 64px;*/
+    height: 64px;
     margin-left: 144px;
     margin-top: 14px;
     text-align: left;
@@ -500,7 +500,8 @@ h1{
     width: 73px;
     height: 14px;
     margin-left: 150px;
-    margin-top: 5px;
+    margin-top: -59px;
+    margin-bottom: 50px;
     text-align: left;
     font: normal normal bold 12px/1px Raleway;
     letter-spacing: 0;
@@ -568,4 +569,11 @@ h1{
     color: #FFFFFF;
     margin-left: 111px;
     margin-top: 55px;
+}
+.form_section{
+
+}
+.left_form_section_contact{
+    width: ;
+    height: ;
 }
